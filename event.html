@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Event JS</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <h1 class="title">Event JS</h1>
+
+ <h2 class="sub_title_1" onclick="this.innerHTML = `ON CLICK`">Click ME</h2>
+
+ <h2 class="sub_title_2" onclick="changeText(this)">Lorem ipsum dolor sit amet.</h2>
+
+ <h2 id="sub_title_3">Lorem, ipsum dolor.</h2>
+
+ <h3 class="on_over" onmouseover="style.color='red'"  onmouseout="style.color='green'">Some color text</h3>
+
+ Enter your name: <input type="text" onfocus="myFunc(this)">
+ <br> <br>
+ <button onclick="this.innerHTML = Date()"> What time is it? </button>
+
+ 
+
+ <script src="js/event.js"></script>
+</body>
+</html>

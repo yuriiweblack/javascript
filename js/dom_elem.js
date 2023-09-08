@@ -162,12 +162,12 @@ console.log(elems_5)
 let elems_6 = document.querySelectorAll(".wrapper .wrapper__text");
 console.log(elems_6);
 
-let elems_7 = document.querySelectorAll("#lorem");
-console.log(elems_7)
-
 let elems_8 = document.querySelector(".wrapper__text");
 console.log(elems_8)
 
 elems_8.innerHTML = "Other text!"
 console.log(elems_8)
+let elems_7 = document.querySelectorAll("#lorem");
+console.log(elems_7)
+
 
